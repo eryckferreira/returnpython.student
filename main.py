@@ -1,10 +1,4 @@
-pontoDoSteak = int(input("Em que grau se encontra o fogo? "))
+nome = input("Digite seu nome: ")
+idada = int(input("Digite sua idade: "))
 
-if pontoDoSteak <= 50:
-    print("Mal passada")
-
-elif pontoDoSteak <= 100:
-    print("No ponto")
-
-else:
-    print("Bem passada")
+print(f"seu nome é {nome}, e tem {idada} anos")
